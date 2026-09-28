@@ -28,7 +28,7 @@ analytics**.
 
 </div>
 
-------------------------------------------------------------------------
+---
 
 ## 🧭 How the side quests became systems
 
@@ -59,7 +59,7 @@ financial truth.**
 
 </div>
 
-------------------------------------------------------------------------
+---
 
 ## 🚀 Flagship Systems
 
@@ -75,15 +75,15 @@ Reconstructs fragmented financial evidence into reconciled household and
 investment state, then carries that state through analytics, tax,
 planning, and BI.
 
-**Data engineering**  
-`SQLite Control Plane` · `DuckDB` · `Polars` · `20 Silver` · `17 Gold`
+**Data architecture**  
+`SQLite Control Plane` · `Persistent Bronze` · `DuckDB` · `Polars` · `Data Contracts`
 
 **Finance & quant**  
 `FIFO Tax Lots` · `XIRR` · `Shadow Benchmarks` · `After-Tax Wealth` ·
 `Monte Carlo FIRE`
 
-**Product surface**  
-`Power BI` · `CLI` · `Desktop` · `Packaged Docs`
+**Reliability & product**  
+`Self-Healing` · `Forensic Logging` · `Snapshot / Restore` · `Power BI` · `CLI` · `Desktop`
 
 **Explore:** [Repo](https://github.com/tks18/personal-finance-etl) ·
 [Wiki](https://github.com/tks18/personal-finance-etl/wiki) ·
@@ -100,24 +100,24 @@ planning, and BI.
 What began as Power Query-style transformation tooling evolved into
 reusable local-first data infrastructure.
 
-**Current direction**  
+**Current Core**  
 `Polars-first` · `Typed` · `Deterministic` · `Plugin-driven`
 
-**System evolution**  
+**Platform evolution**  
 `Lazy Execution` · `Large-file Workflows` · `CLI` · `UI` · `API` · `SDK`
 
 **What it represents**  
 Reusable transformation machinery instead of one-off scripts.
 
 **Explore:** [HQ](https://github.com/PyQuery-HQ) ·
-[Core](https://github.com/PyQuery-HQ/pyquery-core) ·
-[Legacy](https://github.com/PyQuery-HQ/pyquery-legacy)
+[Core · Current Engine](https://github.com/PyQuery-HQ/pyquery-core) ·
+[Legacy · Platform Evolution](https://github.com/PyQuery-HQ/pyquery-legacy)
 
 </td>
 </tr>
 </table>
 
-------------------------------------------------------------------------
+---
 
 ## 🧩 Selected Engineering Work
 
@@ -172,7 +172,7 @@ client data.
 An open-source, memory-conscious take on Windows Recall built around
 local multimedia processing.
 
-`Python` · `OpenCV` · `FFmpeg` · `Local-first`
+`Python` · `OpenCV` · `FFmpeg` · `SQLite` · `Local-first`
 
 </td>
 </tr>
@@ -183,7 +183,7 @@ local multimedia processing.
 built around managing Power Query assets as maintainable engineering
 artifacts.</sub>
 
-------------------------------------------------------------------------
+---
 
 ## 🌱 Before the Data Engines
 
@@ -225,25 +225,23 @@ codebase.
 </tr>
 </table>
 
-------------------------------------------------------------------------
+---
 
 ## 🧰 What I Build With
 
-| I build around            | Toolkit / concepts                                                                          |
-|---------------------------|---------------------------------------------------------------------------------------------|
-| **Data systems**          | Python · Polars · DuckDB · SQLite · SQL · ETL · lazy execution · data contracts             |
-| **Analytics & BI**        | Power BI · Power Query · Excel · DAX · semantic modelling · analytical marts                |
-| **Product & full stack**  | TypeScript · React · Vue · Redux · Node.js · Express · REST · PostgreSQL · MongoDB          |
-| **Software engineering**  | Pydantic · OOP · clean architecture · APIs · CLI · desktop apps · testing · strict typing   |
-| **Finance & quant**       | Accounting · reconciliation · tax · FIFO · XIRR · portfolio analytics · Monte Carlo         |
-| **Analytics products**    | Streamlit · synthetic data · schema builders · formula engines · safe expression evaluation |
-| **AI / semantic systems** | LangChain · RAG · Ollama · local LLM workflows · semantic metadata                          |
+| Capability | Toolkit / concepts |
+|---|---|
+| **Data engineering** | Python · Polars · DuckDB · SQLite · SQL · ETL · data contracts |
+| **Analytics & BI** | Power BI · Power Query · Excel · DAX · semantic modelling · analytical marts |
+| **Software & product engineering** | Pydantic · APIs · CLI · desktop apps · TypeScript · React · Node.js |
+| **Finance & quant** | Accounting · reconciliation · tax · FIFO · XIRR · portfolio analytics · Monte Carlo |
+| **AI & semantic systems** | LangChain · RAG · Ollama · local LLM workflows · semantic metadata |
 
 > **Chartered Accountancy is the domain lens, not a decorative
 > credential.** It shows up in how I think about evidence,
 > reconciliation, controls, tax, grain, and financial semantics.
 
-------------------------------------------------------------------------
+---
 
 ## 🏆 Okay, a Little GitHub Flex
 
@@ -259,7 +257,7 @@ codebase.
 
 <p align="center"><sub>Stats are fun. Projects are the receipts.</sub></p>
 
-------------------------------------------------------------------------
+---
 
 ## 🤝 Connect
 
